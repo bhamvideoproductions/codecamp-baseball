@@ -1,0 +1,110 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Favorite MLB Team Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <h1 id="title">FAVORITE MLB TEAM SURVEY</h1>
+  <p id="description">Are you a fan of Major League Baseball? What is your favorite team?</p>
+  <form id="survey-form">
+    <fieldset>
+    <label id="name-label" for="name">Name<input id="name" type="text" name="name" placeholder="Enter your name here" required /></label>
+    <label id="email-label" for="email">Email<input id="email" type="email" name="email" placeholder="Enter your email here" required /></label>
+    <label id="number-label" for="age">Age<input id="number" type="number" name="age" min="1" max="150" placeholder="Enter your age here" /></label>
+    </fieldset>
+    <fieldset>
+      <legend>Favorite Team</legend>
+      <select id="dropdown">
+        <option>(select one)</option>
+        <option>Arizona Diamondbacks</option>
+        <option>Atlanta Braves</option>
+        <option>Baltimore Orioles</option>
+        <option>Boston Red Sox</option>
+        <option>Chicago Cubs</option>
+        <option>Chicago White Sox</option>
+        <option>Cincinnati Reds</option>
+        <option>Cleveland Guardians</option>
+        <option>Colorado Rockies</option>
+        <option>Detroit Tigers</option>
+        <option>Houston Astros</option>
+        <option>Kansas City Royals</option>
+        <option>Los Angeles Angels</option>
+        <option>Miami Marlins</option>
+        <option>Milwaukee Brewers</option>
+        <option>Minnesota Twins</option>
+        <option>New York Mets</option>
+        <option>New York Yankees</option>
+        <option>Oakland Athletics</option>
+        <option>Philadelphia Phillies</option>
+        <option>Pittsburgh Pirates</option>
+        <option>San Diego Padres</option>
+        <option>San Francisco Giants</option>
+        <option>Seattle Mariners</option>
+        <option>St. Louis Cardinals</option>
+        <option>Tampa Bay Rays</option>
+        <option>Texas Rangers</option>
+        <option>Toronto Blue Jays</option>
+        <option>Washington Nationals</option>
+      </select>
+    <fieldset>
+    <fieldset>
+      <legend>How many years have you played baseball?</legend>
+      <label for="zero"><input id="zero" name="experience" value="0" type="radio" /> 0</label>
+      <label for="one"><input id="one" name="experience" value="1-5" type="radio" /> 1-5</label>
+      <label for="five"><input id="five" name="experience" value="6-9" type="radio" /> 6-9</label>
+      <label for="ten"><input id="ten" name="experience" value="10+" type="radio" /> 10+</label>
+    </fieldset>
+    <fieldset>
+      <legend>What is your favorite league?</legend>
+      <label for="american-league"><input name="american-league" value="league" type="checkbox" checked /> American League</label>
+      <label for="national-league"><input name="national-league" value="league" type="checkbox"  /> National League</label>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="I played baseball..."></textarea/>
+    </fieldset/>
+    <input type="submit" id="submit" value="Submit" />
+      </form>
+  </body>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: #041E42;
+  color: #FFFFFF;
+  font-family: Tahoma;
+  margin: 15;
+  font-size: 17;
+}
+
+fieldset {
+  border: none;
+}
+
+h1, p {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  max-width: 350px;
+  min-width: 300px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  background-color: #fffff;
+  width: 100%;
+}
+
+
+** end of undefined **
+
